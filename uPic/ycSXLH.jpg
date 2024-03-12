@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8" />
+        <title>登录 | MY.17CE.COM</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta content="" name="description" />
+        <meta content="" name="author" />
+        <link href="/member/assets/c8ce92f1/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link href="/member/assets/c8ce92f1/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="/member/assets/c8ce92f1/global/plugins/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet">
+<link href="/member/assets/c8ce92f1/global/plugins/dripicons/webfont/webfont.css" rel="stylesheet">
+<link href="/member/assets/c8ce92f1/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet">
+<link href="/member/assets/c8ce92f1/global/css/global.css?v=20190415" rel="stylesheet">
+<link href="/member/assets/c8ce92f1/global/plugins/sweetalert2/sweetalert2.min.css" rel="stylesheet">
+<link href="/member/assets/61215591/authchoice.css" rel="stylesheet">
+<link href="/member/assets/c8ce92f1/global/css/plugins.min.css" rel="stylesheet">
+<link href="/member/assets/c8ce92f1/layouts/global/layout.min.css" rel="stylesheet">        <!-- App favicon -->
+        <link rel="shortcut icon" href="/member/favicon.ico" />
+        <script language="JavaScript">
+        var BaseUrl = '/member';
+        </script>
+    </head>
+    <!-- END HEAD -->
+
+    <body class="bg-account-pages">
+            <!-- Login -->
+        <section>
+            <div style="font-size:14px;position: absolute;top: 10px;right: 30px;">
+                <a href="/member/login?language=zh-CN">中文</a> | 
+                <a href="/member/login?language=en-US">English</a>
+            </div>
+            <div class="container">
+                
+
+<div class="row">
+    <div class="col-xs-12">
+                                </div>
+</div>
+
+
+<div class="row">
+    <div class="col-12">
+
+        <div class="wrapper-page">
+            <div class="account-pages">
+                <div class="account-box">
+
+                    <!-- Logo box-->
+                    <div class="account-logo-box">
+                        <h2 class="text-uppercase text-center">
+                            <a href="https://www.17ce.com" target="_blank" class="text-success">
+                                <span><img src="/member/static/images/logo2.png" alt="logo" height="42"></span>
+                            </a>
+                        </h2>
+                    </div>
+
+                    <div class="account-content">
+                        <form id="login-form" action="/member/login" method="post">
+<input type="hidden" name="_csrf" value="d6bL0Cx6NCYx74PF54waZC3gGwr6Ke0oIqSeWPW2hMoY5PzkSABtY1-W2raXxnIKQJFUYawdoEtj1vIsp9TlpQ==">
+                        
+                            <div class="form-group field-login-form-login required">
+<label class="control-label" for="login-form-login">邮箱/手机号</label>
+<input type="text" id="login-form-login" class="form-control" name="login-form[login]" autofocus="autofocus" tabindex="1" aria-required="true">
+
+<div class="help-block"></div>
+</div>
+                        
+                                                    <div class="form-group field-login-form-password required">
+<label class="control-label" for="login-form-password">密码 (<a href="/member/forgot" tabindex="5">忘记密码?</a>)</label>
+<input type="password" id="login-form-password" class="form-control" name="login-form[password]" tabindex="2" aria-required="true">
+
+<div class="help-block"></div>
+</div>                        
+                        <div class="form-group field-login-form-rememberme">
+
+<input type="hidden" name="login-form[rememberMe]" value="0"><label><input type="checkbox" id="login-form-rememberme" name="login-form[rememberMe]" value="1" tabindex="3"> 记住密码</label>
+
+<div class="help-block"></div>
+</div>
+                        <!-- <div class="radio_row">
+                            <input id="login_type" type="hidden" value="" name="login-form[type]" />
+                            <input id="login_type_1" value="1" type="radio" name="login-form[type]" checked="checked" />
+                                <label for="login_type_1">监控系统</label>
+                            <input id="login_type_2" value="2" type="radio" name="login-form[type]" />
+                                <label for="login_type_2">赚钱路由器</label>
+                        </div> -->
+
+                        <button type="button" id="submit-form" class="btn btn-info btn-block" tabindex="4">登录</button>
+                        </form>
+
+                        <div class="row mt-3">
+                            <!-- <div class="col-12 text-center">
+                                                                                                    <p class="text-center">
+                                        <a href="/member/register">没有帐户？立即注册！</a>                                    </p>
+                                                                <div id="w0"><ul class="auth-clients"></ul></div>
+                            </div> -->
+                        </div> <!-- end row-->
+                    </div> <!-- end account-content -->
+
+                </div> <!-- end account-box -->
+            </div>
+            <!-- end account-page-->
+        </div>
+        <!-- end wrapper-page -->
+
+    </div> <!-- end col -->
+</div> <!-- end row -->
+
+<!-- 将数据块 注入到视图中的某个位置 -->
+
+            </div> <!-- end container -->
+        </section>
+        <!-- END HOME -->
+        <!--[if lt IE9]>
+<script src="/member/assets/c8ce92f1/global/plugins/respond.min.js"></script>
+<![endif]-->
+<!--[if lt IE9]>
+<script src="/member/assets/c8ce92f1/global/plugins/excanvas.min.js"></script>
+<![endif]-->
+<script src="/member/assets/c8ce92f1/global/plugins/jquery/jquery.min.js"></script>
+<script src="/member/assets/c8ce92f1/global/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="/member/assets/c8ce92f1/global/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/member/assets/c8ce92f1/global/plugins/js.cookie.min.js"></script>
+<script src="/member/assets/c8ce92f1/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js"></script>
+<script src="/member/assets/c8ce92f1/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<script src="/member/assets/c8ce92f1/global/plugins/metismenu/metisMenu.min.js"></script>
+<script src="/member/assets/c8ce92f1/global/plugins/sweetalert2/sweetalert2.min.js"></script>
+<script src="/member/assets/c8ce92f1/global/scripts/app.min.js"></script>
+<script src="/member/assets/c8ce92f1/userbackend/scripts/highcharts.js"></script>
+<script src="/member/assets/3f728046/yii.js"></script>
+<script src="/member/assets/3f728046/yii.activeForm.js"></script>
+<script src="/member/assets/61215591/authchoice.js"></script>
+<script src="/member/assets/c8ce92f1/layouts/global/layout.min.js?v=20190424"></script>
+<script src="/member/assets/c8ce92f1/global/plugins/jquery.tablesort.min.js"></script>
+<script src="/member/assets/c8ce92f1/other/scripts/common.js"></script>
+<script>    $(document).ready(function() {
+        //获取cookie的值
+        var username = getCookie('username');
+        var password = getCookie('password');
+        //alert(username + '+' + password);
+
+        if (username != null && username != '' && password != null && password != '') {//选中保存秘密的复选框
+            //将获取的值填充入输入框中
+            $('#login-form-login').val(username);
+            $('#login-form-password').val(password);
+            $("#login-form-rememberme").attr('checked', true);
+        }
+    });
+
+    $('#submit-form').on('click', function () {
+        if ($("#login-form-rememberme").prop("checked") == true) {  //客户端记住用户名和密码
+            setCookie("username", $('#login-form-login').val(), 14);
+            setCookie("password", $('#login-form-password').val(), 14);
+        } else {
+            setCookie("username", "", -1);
+            setCookie("password", "", -1);
+        }
+        $('#login-form').submit();
+    })
+
+    function setCookie(c_name,value,expiredays)
+    {
+        var exdate=new Date()
+        exdate.setDate(exdate.getDate()+expiredays)
+        document.cookie=c_name+ "=" +escape(value)+
+            ((expiredays==null) ? "" : ";expires="+exdate.toGMTString())
+    }
+
+    function getCookie(c_name)
+    {
+        if (document.cookie.length>0)
+        {
+            c_start=document.cookie.indexOf(c_name + "=")
+            if (c_start!=-1)
+            {
+                c_start=c_start + c_name.length+1
+                c_end=document.cookie.indexOf(";",c_start)
+                if (c_end==-1) c_end=document.cookie.length
+                return unescape(document.cookie.substring(c_start,c_end))
+            }
+        }
+        return ""
+    }
+
+    $(document).keyup(function(event){
+        if(event.keyCode ==13){
+            $('#submit-form').click();
+        }
+    });
+</script>
+<script>jQuery(function ($) {
+jQuery('#login-form').yiiActiveForm([], []);
+$('#w0').authchoice();
+});</script>    </body>
+    </html>
+    
